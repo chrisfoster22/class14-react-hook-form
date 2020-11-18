@@ -57,8 +57,46 @@
       "text": "Delicious food!"
     },
     {
+      "text": "bad",
+      "stars": 0,
       "restaurantId": "1",
-      "id": 7
+      "id": 10
+    },
+    {
+      "text": "good mushrooms",
+      "stars": 4,
+      "restaurantId": "1",
+      "id": 11
+    },
+    {
+      "text": "bad cauliflower",
+      "stars": 2,
+      "restaurantId": "1",
+      "id": 12
+    },
+    {
+      "text": "good service",
+      "stars": 5,
+      "restaurantId": "1",
+      "id": 13
+    },
+    {
+      "text": "bad service",
+      "stars": 1,
+      "restaurantId": "1",
+      "id": 14
+    },
+    {
+      "text": "bad",
+      "stars": 1,
+      "restaurantId": "1",
+      "id": 15
+    },
+    {
+      "text": "cockroaches",
+      "stars": 4,
+      "restaurantId": "1",
+      "id": 16
     }
   ]
 }
