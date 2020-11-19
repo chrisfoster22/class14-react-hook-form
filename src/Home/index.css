@@ -1,0 +1,9 @@
+.restaurants {
+  display: flex;
+  justify-content: space-around;
+}
+
+.restaurant-card {
+  border: 5px solid grey;
+  padding: 20px;
+}

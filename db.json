@@ -97,6 +97,60 @@
       "stars": 4,
       "restaurantId": "1",
       "id": 16
+    },
+    {
+      "text": "spicy",
+      "stars": 4,
+      "restaurantId": "3",
+      "id": 17
+    },
+    {
+      "text": "bad",
+      "stars": 2,
+      "restaurantId": "3",
+      "id": 18
+    },
+    {
+      "text": "pretty",
+      "stars": 0,
+      "restaurantId": "3",
+      "id": 19
+    },
+    {
+      "text": "yo",
+      "stars": 1,
+      "restaurantId": "3",
+      "id": 20
+    },
+    {
+      "text": "good spicy food",
+      "stars": 4,
+      "restaurantId": "3",
+      "id": 21
+    },
+    {
+      "text": "good spicy",
+      "stars": 4,
+      "restaurantId": "3",
+      "id": 22
+    },
+    {
+      "text": "good spy",
+      "stars": 4,
+      "restaurantId": "3",
+      "id": 23
+    },
+    {
+      "text": "too spicy",
+      "stars": 2,
+      "restaurantId": "3",
+      "id": 24
+    },
+    {
+      "text": "way too spicy",
+      "stars": 1,
+      "restaurantId": "3",
+      "id": 25
     }
   ]
 }

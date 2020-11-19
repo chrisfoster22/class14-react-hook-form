@@ -6,7 +6,6 @@ import Review from "../Review";
 const Restaurant = (props) => {
   const [reviews, setReviews] = useState([]);
   const [restaurant, setRestaurant] = useState([]);
-  const [successfulPost, setSuccessfulPost] = useState(false);
 
   const { register, handleSubmit, reset, errors } = useForm();
   const onSubmit = async (formData) => {
@@ -28,10 +27,7 @@ const Restaurant = (props) => {
     const createdReview = await response.json();
     reset();
     setReviews([...reviews, createdReview]);
-    setSuccessfulPost(true);
-    setTimeout(() => {
-      setSuccessfulPost(false);
-    }, 5000);
+    props.showToast("Review successfully created!");
   };
 
   useEffect(() => {
@@ -57,18 +53,6 @@ const Restaurant = (props) => {
 
   return (
     <div className="restaurant">
-      {successfulPost && (
-        <div
-          style={{
-            padding: "5px",
-            backgroundColor: "lightgreen",
-            color: "white",
-            fontSize: 20,
-          }}
-        >
-          You've successfully created a review!
-        </div>
-      )}
       <Link to="/">Back</Link>
       <h2>{restaurant.name}</h2>
       {reviews.map((review) => {

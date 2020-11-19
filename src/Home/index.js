@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "@reach/router";
+import "./index.css";
 
 const Home = () => {
   const [restaurants, setRestaurants] = useState([]);
@@ -18,9 +19,11 @@ const Home = () => {
     <div className="restaurants">
       {restaurants.map((restaurant) => {
         return (
-          <Link to={`/restaurants/${restaurant.id}`}>
-            <h2>{restaurant.name}</h2>
-          </Link>
+          <div className="restaurant-card">
+            <Link to={`/restaurants/${restaurant.id}`}>
+              <h2>{restaurant.name}</h2>
+            </Link>
+          </div>
         );
       })}
     </div>
